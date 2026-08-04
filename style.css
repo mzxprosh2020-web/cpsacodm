@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0b0f1a;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#111827;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#00d4ff;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    color:#00d4ff;
+}
+
+.hero h2{
+    margin:20px;
+}
+
+
+.buy-btn,
+button{
+
+    background:#00d4ff;
+    color:#000;
+    padding:12px 25px;
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+    text-decoration:none;
+
+}
+
+
+.packages{
+
+    padding:50px 8%;
+    text-align:center;
+
+}
+
+
+.cards{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+
+}
+
+
+.card{
+
+    background:#182235;
+    padding:30px;
+    width:220px;
+    border-radius:15px;
+    box-shadow:0 0 15px #000;
+
+}
+
+
+.card h3{
+
+    color:#00d4ff;
+    margin-bottom:15px;
+
+}
+
+
+.card p{
+
+    font-size:20px;
+    margin-bottom:20px;
+
+}
+
+
+footer{
+
+    text-align:center;
+    padding:30px;
+    background:#111827;
+
+}
+
+
+@media(max-width:700px){
+
+header{
+
+    flex-direction:column;
+    gap:15px;
+
+}
+
+.hero h1{
+
+    font-size:40px;
+
+}
+
+.cards{
+
+    flex-direction:column;
+    align-items:center;
+
+}
+
+}
